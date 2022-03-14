@@ -1,0 +1,137 @@
+@media(max-width: 1024px) {
+    .app {
+        padding: 20px 30px;
+    }
+}
+
+@media(max-width: 1000px) {
+  .product__card_description .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn__add_cart {
+    margin: 20px 0;
+  }
+}
+@media(max-width: 800px) {
+  .product__card {
+    flex-direction: column;
+    align-items:center;
+  }
+
+  .product__page_title {
+    font-size: 20px;
+  }
+
+  .product__card_image {
+    width: 50%;
+    min-width: 250px;
+    max-height: 250px;
+    margin-bottom: 50px;
+  }
+
+  .product__card_image img {
+    width: 80%;
+    height: 80%;
+    object-fit: scale-down;
+  }
+
+  .product__card_description {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .product-description {
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+ .btn__add_cart {
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 2px 15px 2px 10px;
+  }
+
+  .product__price {
+    font-size: 22px;
+  }
+  
+}
+
+@media (max-width: 768px) {
+    .item__btn_delete {
+        width: 32px;
+        height: 32px;
+        background-image: url(./images/remove_min.png);
+      }
+}
+@media(max-width: 740px) {
+    .app {
+        padding: 20px;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        
+      }
+      .header__logo {
+          margin: 0;
+      }
+
+      .header__cart-widget {
+          position: absolute;
+          top: 0;
+          right: 0;
+      }
+
+      .header__search input {
+          margin-right: 0;
+          margin-top: 20px ;
+      }
+
+      .catalog__header {
+        justify-content: space-around;
+        position: relative;
+        z-index: 2;
+      }
+
+      .catalog__slider_btns {
+          display: none;
+      }
+
+      .catalog__products_list {
+          flex-wrap: wrap;
+          justify-content: center;
+          position: relative;
+          z-index: 2;
+      }
+
+      .cart__page_item {
+        position: relative;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 70%;
+        margin: 20px auto;
+      }
+
+      .item__title {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .item__btn_delete {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+
+}
